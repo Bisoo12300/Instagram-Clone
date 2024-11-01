@@ -16,8 +16,6 @@ A social media app similar to Instagram that people can actually use.
 
 <h2>Demo</h2>
 
-<a href="https://instagram-clone-21d9b.web.app" style="color: #cb3837; display: block; margin-bottom: 4px;">Click here to go to the Live Demo</a> 🔥 🔥 <br/>
-<a href="https://www.youtube.com/watch?v=hODQDV1sJJs">Youtube demo</a> <br/>
 Give me a star if you like it. ⭐
 
 <h2>Core Features</h2>
@@ -162,10 +160,6 @@ Give me a star if you like it. ⭐
     <li><p>Ability to put multiple media contents in one post</p></li>
     <li><p>Ability to send voice messages</p></li>
    </ul>
-
-## Available Scripts
-Please note before cloning the project: All functions that are responsible for handling actions like following, liking, commenting, etc.. are exist in Context.js which will not be pushed to the repo until this project gets at least 150 stars. without that file, the app won't work.
-Knowing that, In the project directory, you can run:
 
 ### `npm start`
 
