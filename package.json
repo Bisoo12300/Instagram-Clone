@@ -1,0 +1,87 @@
+{
+  "name": "buzzwave",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.4",
+    "bad-words-plus": "^3.0.4",
+    "bootstrap": "^4.3.1",
+    "emoji-picker-react": "^3.4.8",
+    "enzyme": "^3.11.0",
+    "firebase": "^7.24.0",
+    "font-awesome": "^4.7.0",
+    "material-ui": "^0.20.2",
+    "moment": "^2.29.4",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.6.1",
+    "react-confirm-alert": "^2.7.0",
+    "react-dom": "^17.0.2",
+    "react-easy-crop": "^3.5.1",
+    "react-files": "^3.0.0-alpha.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-h5-audio-player": "^3.7.1",
+    "react-icons": "^3.11.0",
+    "react-image-filter": "^0.1.2",
+    "react-image-marker": "^1.2.0",
+    "react-is": "^18.3.1",
+    "react-items-carousel": "^2.8.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-modal": "^3.14.3",
+    "react-moment": "^1.1.1",
+    "react-redux": "^7.2.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-scroll-trigger": "^0.6.10",
+    "react-share": "^4.4.0",
+    "react-toastify": "^7.0.4",
+    "react-truncate": "^2.4.0",
+    "react-youtube": "^7.14.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.77.5",
+    "save": "^2.5.0",
+    "styled-components": "^5.3.0"
+  },
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "export NODE_ENV=development && cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:cypress/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-firebase": "^1.9.1",
+    "firebase-admin": "^9.9.0",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}

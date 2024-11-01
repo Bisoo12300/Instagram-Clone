@@ -1,0 +1,94 @@
+#about--container {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+
+  .about--inner {
+      .about-sub {
+          width: 100%;
+          padding: 120px 0 0;
+          justify-content: center;
+          align-items: center;
+
+          @media (max-width: 670px) {
+              padding: 80px 0 0;
+          }
+      }
+
+      .about-section-inner {
+          width: 100%; 
+          text-align: center;
+
+          h2 {
+              color: var(--font-black);
+              font-weight: bolder;
+              letter-spacing: 3px;
+              margin: 0; // Xóa khoảng cách để tránh xuống dòng
+          }
+
+          .info-container {
+              display: flex; // Sử dụng Flexbox
+              justify-content: center; // Căn giữa
+              align-items: center; // Căn giữa theo chiều dọc
+
+              .student-info {
+                  margin-right: 10px; // Khoảng cách giữa tên và mã sinh viên
+                  white-space: nowrap; // Giữ chúng trên cùng một hàng
+              }
+          }
+
+          .team-name {
+              color: var(--font-black);
+              font-size: 25px; // Kích thước font chữ cho tên nhóm (đã điều chỉnh)
+              font-weight: bold;
+              margin-top: 5px;
+              display: block; // Xuống dòng cho tên nhóm
+              white-space: nowrap; // Giữ thông tin nhóm trên cùng một hàng với thông tin liên lạc
+          }
+
+          .contact-info {
+              color: var(--second--gray);
+              margin-top: 15px;
+              line-height: 1.5;
+              white-space: nowrap; // Giữ thông tin liên lạc trên cùng một hàng
+              font-size: 18px; // Kích thước font chữ cho thông tin liên lạc
+          }
+
+          ul.members-list {
+              list-style: none;
+              padding: 0;
+              margin-top: 0px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              li {
+                  color: black; // Màu chữ danh sách thành viên đã chỉnh
+                  font-size: 18px;
+                  margin-bottom: 10px;
+                  white-space: nowrap; // Giữ tên và mã sinh viên trên cùng một hàng
+              }
+          }
+
+          ul.socials--links {
+              display: flex;
+              justify-content: center;
+              list-style: none;
+              padding: 0;
+
+              li {
+                  margin: 0 10px;
+
+                  a {
+                      color: var(--light-black);
+
+                      &:hover {
+                          color: var(--bluish-sky);
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

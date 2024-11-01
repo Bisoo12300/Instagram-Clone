@@ -1,0 +1,64 @@
+#loadingScreen{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 5800;
+    height: 100vh;
+    height: 100svh;
+    overflow: hidden;
+    .loading--backdrop{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        background-color: var(--white);
+        overflow-x: hidden;
+        opacity: 0.5;
+        backdrop-filter: saturate(180%) blur(20px);
+        height: 100%;
+        padding:0;
+        margin:0;
+    }
+    .loading--screen--inner{
+        width: 80%;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height:80vh ;
+        z-index: 6050;
+        border-radius: 10px;
+        justify-content:center;
+        align-items:center;
+        @media only screen and (max-width:670px){
+            height:calc(100vh - (50px + 50px));
+        }
+        img{
+            width:100px;
+            max-width: 200px;
+            object-fit: contain;
+        }
+    }
+    .loading--timeout--bg{
+         padding: 10px;
+         text-align: center;
+         background-color: rgba(219, 219, 219, 0.6);
+         button.prof__btn__unfollowed{
+            background-color:rgba(41, 37, 38, 0.8);
+            color: var(--white);
+            padding:3px 12px;
+            transition: 0.2s linear;
+            margin-top: 20px;
+            &:hover{
+                background-color: rgba(59, 56, 57,0.8);
+            }
+         }
+    }
+    #header.main--header {
+        position: fixed;
+    }
+}
+#loadingScreen.loadingComponent .loading--screen--inner img{
+    width:40px;
+}

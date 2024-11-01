@@ -1,0 +1,83 @@
+#optionsModal {
+  position: fixed;
+  z-index: 2600;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+
+  @media only screen and (max-width: 670px) {
+    width: 80%;
+    margin: 0 auto;
+    z-index: 5800;
+  }
+  .optionsM--container--inner {
+    background-color: var(--light-gray);
+    border-radius: 12px;
+    height: auto;
+    overflow: hidden;
+    @media only screen and (min-width: 670px) {
+      width: 400px;
+    }
+  }
+  .optionsM--container--inner span {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px 8px;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--gray);
+    line-height: 1.5;
+
+    cursor: pointer;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    transition: background 0.2s linear;
+    &:active {
+      background: var(--light-gray);
+    }
+
+  }    
+  .optionsM--container--inner span, .optionsM--container--inner button {
+    &:hover{
+        background: rgba(0,0,0,0.060);
+    }
+  }
+
+  .optionsM--container--inner > *:first-child {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .optionsM--container--inner > *:last-child {
+    border: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  #logoutModal {
+    .logout--modal {
+      height: 100px;
+      text-align: center;
+      padding: 12px 2px;
+      align-items: center;
+      justify-content: center;
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    span {
+      border-top: 1px solid rgb(219, 219, 219);
+      border-bottom: none;
+    }
+  }
+}

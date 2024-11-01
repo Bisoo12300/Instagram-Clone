@@ -1,0 +1,70 @@
+#errorRoute{
+    width: 100%;
+    height: 100%;
+    padding-top:120px;
+    .desktop-comp{
+        min-height: auto;
+    }
+  .error--inner{
+            padding: 40px;
+            width: 100%;
+            height: 100%;
+            min-height: calc(100vh - (250px + 70px));
+            align-items:center;
+            text-align:center;
+            margin: 0 auto;
+            h2{
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 26px;
+            }
+            h5{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            h2, h5{
+                display: block;
+            }
+            p{
+                color: var(--second--gray);
+            }
+            .ig--error--error{
+                
+                text-align:center;
+                align-items:center;
+                justify-content: center;
+                img{
+                    min-height:100%;
+                    width:90px;
+                }
+                margin: auto;
+            }
+            .not--found, .ig--error--error, .forbidden{
+                width: 100%;
+                height:100%;
+            }
+            .error--500{
+                img{
+                    width: clamp(130px, 80%, 400px);
+                    margin: 0 auto 30px auto;
+                }
+                .error--btn--container{
+                    margin-top: calc(30px -  1rem);
+                    button{
+                        margin:0 auto;
+                        align-items: center;
+                        svg{
+                            margin-right: 0.2rem;
+                        }
+                    }
+                }
+            }
+    } 
+    @media only screen and (max-width: 670px){
+        .error--inner{
+            padding: 50px 10px;
+        }
+        margin-top: 40px;
+    }
+}

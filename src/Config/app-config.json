@@ -1,0 +1,15 @@
+{
+    "title": "Instagram",
+    "description": "social media clone",
+    "baseUrl": "https://insta-xin-default-rtdb.firebaseio.com",
+    "audioscrobbler": "https://ws.audioscrobbler.com/2.0",
+    "lyricsOvh": "https://api.lyrics.ovh",
+    "websiteUrl": "https://instagram-clone-21d9b.web.app",
+    "alternativeWebsiteUrl": "https://buzzwave.netlify.app",
+    "getMyRepoUrl": "",
+    "repoUrl": "https://github.com/Hoan2006/Instagram_real_app",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100022437171169",
+    "instagramUrl": "https://www.instagram.com/locvbn13/",
+    "emailAddress": "trankhaihoan111@gmail.com",
+    "githubUrl": "https://github.com/Hoan2006"
+}
